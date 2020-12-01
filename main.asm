@@ -1,5 +1,5 @@
-;	CENG 329 HOMEWORK
-;   Nadir Suhan ILTER 201611029
+
+;   Nadir Suhan ILTER 
 ;
 ;
 ;-------------------------------------------------------------------------------
@@ -30,8 +30,8 @@ StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
 ;-------------------------------------------------------------------------------
 ;
 ;
-;	CENG 329 HOMEWORK
-;   Nadir Suhan ILTER 201611029
+;	
+;   Nadir Suhan ILTER 
 
 main:
 			bis.b #BIT3, &P2DIR	; makes bits 1 of p2.3 BLUE
